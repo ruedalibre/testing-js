@@ -18,7 +18,7 @@ const generateManyBook = (size) => {
   creados */
   const fakeBooks = [];
   /* Creo un ciclo para recorrer el arreglo de libros */
-  for (let index = 0; index < limit; index++) {
+  for (let index = 0; index < limit; index+=) {
     /* Uso el método push para agregar los libros al arreglo */
     fakeBooks.push(generateOneBook());
   }
